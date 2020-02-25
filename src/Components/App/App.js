@@ -11,11 +11,17 @@ class App extends React.Component{
         this.state={
             searchResults: [{}],
             playlistName: 'My playlist',
-            playlistTracks: []
+            playlistTracks: [ ]
         };
-
-
+        this.addTrack = this.addTrack.bind(this);
     }
+
+   addTrack(track){
+       let tracks = this.state.playlistTracks;
+       if(tracks.find(savedTrack => savedTrack.id === track.id)) {
+           return;
+       }
+   }
   render() {
     return (
         <div>
