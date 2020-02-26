@@ -4,8 +4,7 @@
     <list default="true" id="de67545c-6f37-469a-b586-dcb55d635c4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Playlist/Playlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Playlist/Playlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Track/Track.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Track/Track.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SearchBar/SearchBar.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+            <state relative-caret-position="275">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -66,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Playlist/Playlist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="459">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -78,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/SearchBar/SearchBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -110,17 +109,17 @@
         <option value="$PROJECT_DIR$/public/reset.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Components/App/App.css" />
-        <option value="$PROJECT_DIR$/src/Components/SearchBar/SearchBar.js" />
         <option value="$PROJECT_DIR$/src/Components/SearchBar/SearchBar.css" />
         <option value="$PROJECT_DIR$/src/Components/SearchResults/SearchResults.css" />
         <option value="$PROJECT_DIR$/src/Components/Playlist/Playlist.css" />
         <option value="$PROJECT_DIR$/src/Components/TrackList/TrackList.css" />
         <option value="$PROJECT_DIR$/src/Components/Track/Track.css" />
         <option value="$PROJECT_DIR$/src/Components/SearchResults/SearchResults.js" />
-        <option value="$PROJECT_DIR$/src/Components/App/App.js" />
         <option value="$PROJECT_DIR$/src/Components/TrackList/TrackList.js" />
         <option value="$PROJECT_DIR$/src/Components/Track/Track.js" />
         <option value="$PROJECT_DIR$/src/Components/Playlist/Playlist.js" />
+        <option value="$PROJECT_DIR$/src/Components/App/App.js" />
+        <option value="$PROJECT_DIR$/src/Components/SearchBar/SearchBar.js" />
       </list>
     </option>
   </component>
@@ -202,7 +201,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582494638231</updated>
-      <workItem from="1582494642394" duration="26480000" />
+      <workItem from="1582494642394" duration="28160000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1582495533338</created>
@@ -302,11 +301,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582743431471</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Change the Name of a Playlist">
+      <created>1582746606014</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582746606014</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Create a Method that Saves the Playlist to a User's Account">
+      <created>1582747261706</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582747261706</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26480000" />
+    <option name="totallyTimeSpent" value="28160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="578" y="5" width="910" height="830" extended-state="0" />
@@ -361,7 +374,8 @@
     <MESSAGE value="Add Tracks to a Playlist" />
     <MESSAGE value="Remove Tracks from a Playlist" />
     <MESSAGE value="Change the Name of a Playlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change the Name of a Playlist" />
+    <MESSAGE value="Create a Method that Saves the Playlist to a User's Account" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a Method that Saves the Playlist to a User's Account" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
@@ -432,16 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/SearchBar/SearchBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/SearchResults/SearchResults.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -472,20 +476,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/App/App.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Playlist/Playlist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="459">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Playlist/Playlist.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/App/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="275">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/SearchBar/SearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
