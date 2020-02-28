@@ -21,6 +21,7 @@ class SearchBar extends React.Component{
         this.setState({term: event.target.value})
     }
 
+
     render() {
         return(
             <div className="SearchBar">
